@@ -1,10 +1,13 @@
 # Title (replace with your title)
 
-Introductory paragraph (replace this with your text)
+In this tutorial we will be breaking down and explaining the regular expression `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
+  in great detail.
+This expression in particular is used specifically to validate emails in conjunction with the applicable search engine.
+
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+Regular expressions are used to decipher search patterns by using special text strings. 
 
 ## Table of Contents
 
@@ -20,7 +23,11 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+In the expression above, characters such as ^ and $ are known as Anchors. Anchors are used to match empty substrings.
+The caret ^ for example matches a position before the first character ina string. It is especially useful for searches 
+that involve having to filter words that start with the same letter, number or any character for that matter.
 
+In the above expression `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/` we are looking for anything that starts with an open
 ### Quantifiers
 
 ### Grouping Constructs
